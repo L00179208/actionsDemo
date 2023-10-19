@@ -6,6 +6,6 @@ package atulabs.ie;
  */
 public class App {
     public static void main(String[] args) {
-        System.out.println("Hello World! Extending knowledge");
+        System.out.println("Hello World! Hello John Doe.  Extending");
     }
 }
