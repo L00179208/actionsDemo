@@ -35,6 +35,7 @@ jobs:
       run: mvn -B package --file pom.xml
     - name: Upload coverage reports to Codecov
       uses: codecov/codecov-action@v3
+      run: codecov -f target/coverage.xml -R /
       env:
         CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}       
 
